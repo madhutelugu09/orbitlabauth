@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: orbitlabauth
+    security:
+        oauth2:
+            resourceserver:
+                jwt:
+                    issuer-uri: https://securetoken.google.com/oview-29aee
+                    jwk-set-uri: https://www.googleapis.com/robot/v1/metadata/x509/securetoken@system.gserviceaccount.com
+
